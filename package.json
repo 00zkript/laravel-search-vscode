@@ -28,6 +28,18 @@
         "command": "laravel-search.searchModels",
         "title": "Laravel Search : Search Models"
       }
+    ],
+    "keybindings": [
+      {
+        "command": "laravel-search.searchControllers",
+        "key": "ctrl+shift+c",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "laravel-search.searchModels",
+        "key": "ctrl+shift+m",
+        "when": "editorTextFocus"
+      }
     ]
   },
   "scripts": {
