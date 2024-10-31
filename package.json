@@ -6,7 +6,9 @@
     "type": "git",
     "url": "https://github.com/00zkript/laravel-search-vscode"
   },
+  "publisher": "00zkript",
   "version": "0.1.0",
+  "icon": "media/devicon--laravel.png",
   "engines": {
     "vscode": "^1.95.0"
   },

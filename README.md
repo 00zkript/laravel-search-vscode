@@ -1,33 +1,48 @@
-# Laravel Search Extension
+# Laravel Search
+<img src="media/devicon--laravel.png" alt="Descripción de la imagen" width="25">
+<!-- ![Laravel Search Logo](media/devicon--laravel.png) -->
 
-Una extensión para Visual Studio Code que permite buscar y abrir controladores y modelos en un proyecto Laravel.
+
+## Descripción
+
+**Laravel Search** es una extensión para Visual Studio Code diseñada para facilitar la búsqueda y apertura de controladores y modelos en proyectos Laravel. Esta herramienta ayuda a los desarrolladores a navegar de manera más eficiente a través de sus proyectos, permitiendo un acceso rápido a los archivos relevantes.
 
 ## Características
 
-- **Búsqueda de Controladores**: Busca controladores dentro de la carpeta `app/Http/Controllers` y los muestra en un cuadro de selección.
-- **Búsqueda de Modelos**: Busca modelos dentro de la carpeta `app/Models` (o la ruta que definas) y los muestra en un cuadro de selección.
-- **Filtrado en Tiempo Real**: Filtra los resultados a medida que escribes en el cuadro de búsqueda.
-- **Íconos de Archivo**: Muestra íconos de PHP junto a los nombres de los archivos.
-- **Rutas Relativas**: Presenta rutas relativas de los archivos en la descripción del cuadro de selección.
+- **Buscar Controladores**: Encuentra y abre rápidamente los controladores en tu proyecto Laravel.
+- **Buscar Modelos**: Localiza y abre modelos de Laravel sin necesidad de navegar manualmente por las carpetas.
+- **Atajos de Teclado**: Utiliza combinaciones de teclas para acceder rápidamente a las funciones de búsqueda:
+  - `Ctrl + Shift + C`: Abre la búsqueda de controladores.
+  - `Ctrl + Shift + M`: Abre la búsqueda de modelos.
 
 ## Instalación
 
-1. Clona este repositorio o descarga los archivos de la extensión.
-2. Abre Visual Studio Code y ve a la pestaña de extensiones (Ctrl + Shift + X).
-3. Haz clic en el icono de los tres puntos en la esquina superior derecha y selecciona "Instalar desde VSIX".
-4. Selecciona el archivo VSIX de la extensión.
+1. Asegúrate de tener Visual Studio Code instalado.
+2. Puedes instalar la extensión directamente desde el [Marketplace de Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=00zkript.laravel-search) o mediante el archivo `.vsix` si lo has empaquetado.
+3. Para instalar manualmente, descarga el archivo `.vsix` y utiliza el siguiente comando en la terminal de VSCode:
+
+```bash
+code --install-extension path/to/your/laravel-search.vsix
+```
 
 ## Uso
 
-1. Una vez instalada la extensión, puedes abrir la paleta de comandos de VS Code con `Ctrl + Shift + P`.
-2. Escribe `Laravel Search: Search Controllers` para buscar controladores o `Laravel Search: Search Models` para buscar modelos.
-3. Comienza a escribir el nombre del controlador o modelo que deseas encontrar y selecciona el resultado de la lista.
-4. El archivo se abrirá en una nueva pestaña.
+- Para buscar controladores, puedes utilizar el atajo de teclado `Ctrl + Shift + C` y comenzar a escribir el nombre del controlador que deseas encontrar.
+- Para buscar modelos, utiliza `Ctrl + Shift + M` y filtra por el nombre del modelo.
 
 ## Contribuciones
 
-¡Las contribuciones son bienvenidas! Siéntete libre de abrir problemas (issues) o enviar solicitudes de extracción (pull requests).
+Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama para tu característica (`git checkout -b feature/NombreCaracteristica`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva característica'`).
+4. Envía un pull request.
 
 ## Licencia
 
-Este proyecto está licenciado bajo la MIT License. Consulta el archivo LICENSE para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Contacto
+
+Si tienes preguntas o sugerencias, no dudes en abrir un [issue](https://github.com/00zkript/laravel-search-vscode/issues) en GitHub.
